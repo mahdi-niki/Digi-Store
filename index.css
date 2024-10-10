@@ -1,0 +1,13 @@
+article .card{
+    max-width: 1000px;
+    height: 470px;
+}
+.bcolor{
+    background:linear-gradient(90deg,rgb(250, 109, 208),rgb(250, 157, 244),rgb(255, 255, 255) );
+
+}
+.card-img-top{
+    width:204px;
+    height: 184px;
+}
+
