@@ -1,0 +1,34 @@
+header {
+  height: 130px;
+}
+
+.bold {
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+.bolds {
+  font-weight: bold;
+  font-size: large;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+  gap: 300px;
+}
+
+.box {
+  max-width: 700px;
+  border-radius: 10px;
+  gap: 30px;
+}
+
+.sbox {
+  margin: 10px auto;
+  gap: 30px;
+}
+
+form > button {
+  margin-right: 50px;
+}
