@@ -6,12 +6,87 @@
     <title>hamburger menu</title>
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.csss"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
     />
   </head>
+
   <body>
     <header>
-      <nav></nav>
+      <nav
+        class="navbar navbar-expand-lg navbar-light bg-light sticky-top d-flex justify-content-around"
+      >
+        <div>
+          <a class="navbar-brand" href="#">
+            <img src="./img/icone.png" width="30" height="30" alt="icone" />
+          </a>
+          <span class="navbar-brand mb-0 h1">team work</span>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >Homepage <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">item2</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">phone store</a>
+            </li>
+            <li class="nav-item dropdown active">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                item4
+              </a>
+              <div
+                class="dropdown-menu active"
+                aria-labelledby="navbarDropdown"
+              >
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+              </div>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">contact us</a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <form class="form-inline my-2 my-lg-0">
+            <button
+              class="btn btn-primary my-2 my-sm-0 rounded-3"
+              type="submit"
+            >
+              SignIn
+            </button>
+          </form>
+        </div>
+      </nav>
     </header>
   </body>
 </html>
