@@ -1,15 +1,15 @@
 .a-style{
     color:rgb(235, 161, 161) !important;
-    text-decoration: none;
+    text-decoration: none !important;
     
     
 }
 .a-style:hover{
-    font-size: large;
-    font-weight: 500;
+    font-size: large !important;
+    font-weight: 500 !important;
 }
 .back-to-top{
-    position: fixed;
-    right: 30px;
-    bottom: 30px;
+    position: fixed !important;
+    right: 30px !important;
+    bottom: 30px !important;
 }
