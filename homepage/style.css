@@ -1,19 +1,67 @@
-article .card{
-    max-width: 1000px;
-    height: 470px;
-}
-.bcolor{
-    background:linear-gradient(90deg,rgb(250, 109, 208),rgb(250, 157, 244),rgb(255, 255, 255) );
+/* main styles */
 
+article .card {
+  max-width: 1000px;
+  height: 470px;
 }
-.card-img-top{
-    width:204px;
-    height: 180px;
+.bcolor {
+  background: linear-gradient(
+    90deg,
+    rgb(250, 109, 208),
+    rgb(250, 157, 244),
+    rgb(255, 255, 255)
+  );
 }
-input[placeholder="Description"]{
-    height: 80px;
-    margin-bottom: 25px;
+.card-img-top {
+  width: 204px;
+  height: 180px;
 }
-.bgcolor2{
-    background:linear-gradient(90deg,rgb(250, 238, 109),rgb(250, 188, 157),rgb(215, 243, 246) );
+input[placeholder="Description"] {
+  height: 80px;
+  margin-bottom: 25px;
+}
+.bgcolor2 {
+  background: linear-gradient(
+    90deg,
+    rgb(250, 238, 109),
+    rgb(250, 188, 157),
+    rgb(215, 243, 246)
+  );
+}
+
+/* header styles */
+
+header {
+  height: 130px;
+}
+
+.bold {
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+.bolds {
+  font-weight: bold;
+  font-size: large;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+  gap: 300px;
+}
+
+.box {
+  max-width: 700px;
+  border-radius: 10px;
+  gap: 30px;
+}
+
+.sbox {
+  margin: 10px auto;
+  gap: 30px;
+}
+
+form > button {
+  margin-right: 50px;
 }
