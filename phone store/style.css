@@ -1,0 +1,35 @@
+img[src="./img/icon.webp"]{
+    width: 40px;
+    height: 40px;
+}
+/* .b{
+    background:linear-gradient(45deg,rgba(205, 69, 164, 0.428),rgb(226, 104, 179),rgb(201, 162, 237),rgba(224, 127, 195, 0.653),rgb(226, 104, 179) );
+    height: 250px;
+} */
+.mcss{
+    margin-left: 14%;
+}
+
+.card-img-top{
+    width:210px;
+    height: 180px;
+}
+article .card{
+    max-width: 300px;
+    height: 370px;
+}
+.bcolor{
+    background:linear-gradient(90deg,rgba(64, 18, 50, 0.428),rgb(129, 183, 195),rgb(255, 255, 255) );
+    height: 250px;
+}
+.hover{
+    transition: font-weight 0.3s ease;
+    border: 1px dotted;
+}
+.hover:hover{
+    font-weight: bold;
+}
+img[src="img/featured.jpg"]{
+    width: auto;
+    height: 250px;
+}
