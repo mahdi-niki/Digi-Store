@@ -67,3 +67,15 @@ input[placeholder="Description"] {
     rgb(215, 243, 246)
   );
 }
+
+@media (max-width: 1200px) {
+  .box {
+    max-width: 500px;
+  }
+  .bold {
+    font-size: x-large;
+  }
+  .bolds {
+    font-size: medium;
+  }
+}
