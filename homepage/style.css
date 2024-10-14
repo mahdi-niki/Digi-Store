@@ -30,7 +30,6 @@ input[placeholder="Description"] {
 }
 
 /* header styles */
-
 header {
   height: 130px;
 }
@@ -45,10 +44,9 @@ header {
   font-size: large;
 }
 
-.flex {
+.nav {
   display: flex;
-  justify-content: space-around;
-  gap: 300px;
+  justify-content: space-evenly;
 }
 
 .box {
@@ -62,6 +60,7 @@ header {
   gap: 30px;
 }
 
-form > button {
-  margin-right: 50px;
+.flex {
+  display: flex;
+  flex-wrap: nowrap;
 }
