@@ -1,3 +1,42 @@
+/* header styles */
+/* navbar */
+header {
+  height: 150px;
+}
+
+.bold {
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+.bolds {
+  font-weight: bold;
+  font-size: large;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.box {
+  max-width: 700px;
+  border-radius: 10px;
+  gap: 30px;
+}
+
+.sbox {
+  margin: 10px auto;
+  gap: 30px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
 /* main styles */
 
 article .card {
@@ -152,3 +191,15 @@ input[placeholder="Description"] {
   bottom: 30px;
 }
 /* end foooter style */
+
+@media (max-width: 1200px) {
+  .box {
+    max-width: 500px;
+  }
+  .bold {
+    font-size: x-large;
+  }
+  .bolds {
+    font-size: medium;
+  }
+}
