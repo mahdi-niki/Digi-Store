@@ -1,6 +1,6 @@
 header {
   width: 100%;
-  height: 800px;
+  height: 750px;
 }
 
 .bold {
@@ -39,10 +39,29 @@ header {
  .se-style{
     width: 100%;
     height: 650px;
-    background-color: rgb(236, 33, 33);
+    background-color: rgb(196, 140, 140);
+    border-radius: 10px;
+    background-image:url(./img/Untitled.png) ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    display: flex ;
+    flex-direction: column;
+  }
+  .se-style a{
+
+    color:rgb(235, 161, 161) !important;
+    text-decoration: none;
+    list-style-type: square;
+  }
+  .se-style a:hover{
+font-weight: 600;
+color:rgb(233, 112, 112) !important;
+
+
   }
 body{
-  background-color: #e95151ce;
+  background-color: #e7707059;
 }
 
 /* ===========================================main-style =============================================*/
