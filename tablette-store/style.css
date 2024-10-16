@@ -70,6 +70,10 @@ h2 {
   gap: 50px;
 }
 
+.bg-color {
+    background-color: lightgrey;
+}
+
 /* ....................... */
 .team-item {
   position: relative;
