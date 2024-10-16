@@ -26,10 +26,10 @@ img[src="./img/icon.webp"]{
     gap: 30px;
   }
   
-  /* .sbox {
+  .sbox {
     margin: 10px auto;
     gap: 30px;
-  } */
+  }
   
   .flex {
     display: flex;
