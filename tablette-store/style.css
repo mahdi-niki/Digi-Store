@@ -35,8 +35,9 @@
 }
 
 /* style of cards in header */
+
 .size-img {
-  height: 60vh;
+  min-height: 400px;
 }
 
 img[src="./img/tt.webp"] + div {
@@ -53,7 +54,7 @@ nav.snav a {
   display: inline-block;
 }
 
-/* card style ==============================================*/
+/* card style */
 main {
   margin-top: 100px;
   margin-bottom: 100px;
@@ -68,13 +69,23 @@ h2 {
 
 .card-prnt {
   gap: 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .bg-color {
-    background-color: lightgrey;
+  background-color: lightgrey;
 }
 
-/* ....................... */
+.card-img {
+  height: 250px;
+}
+
+.card-imgb {
+  height: 260px;
+}
+
 .team-item {
   position: relative;
   overflow: hidden;
@@ -106,7 +117,7 @@ h2 {
 .decoration {
   text-decoration: line-through;
 }
-/* end style card =============================================*/
+/* end style card */
 
 /*  start-footer style */
 .a-style {
