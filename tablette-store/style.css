@@ -53,6 +53,21 @@ nav.snav a {
   display: inline-block;
 }
 
+/*  start-footer style */
+.a-style {
+  color: rgb(235, 161, 161) !important;
+  text-decoration: none;
+}
+.a-style:hover {
+  font-size: large;
+  font-weight: 500;
+}
+.back-to-top {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+}
+
 /* media for navbar */
 
 @media (max-width: 1200px) {
