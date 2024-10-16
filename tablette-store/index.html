@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tablette store</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <section class="bg-dark-subtle">
+        <div class="container d-flex justify-content-between row">
+          <div class="d-flex align-items-center py-2">
+            <span class="text-secondary me-3">
+              <i class="bi bi-telephone-fill"></i> +98 012 2222222
+            </span>
+            <span class="text-secondary me-3">
+              <i class="bi bi-envelope-fill"></i> digistore@yahoo.com
+            </span>
+            <span class="text-secondary">
+              <i class="bi bi-clock-fill"></i> Mon-Fri: 09 AM - 09 PM
+            </span>
+          </div>
+
+          <!-- <div class="d-flex align-items-center">
+              <a href="#" class="text-white me-3"
+                ><i class="bi bi-facebook"></i
+              ></a>
+              <a href="#" class="text-white me-3"
+                ><i class="bi bi-twitter"></i
+              ></a>
+              <a href="#" class="text-white me-3"
+                ><i class="bi bi-linkedin"></i
+              ></a>
+              <a href="#" class="text-white"><i class="bi bi-instagram"></i></a>
+            </div> -->
+        </div>
+      </section>
+
+      <section>
+        <nav
+          class="navbar navbar-expand-lg navbar-light bg-light sticky-top w-100 h-75 nav"
+        >
+          <div class="flex">
+            <a class="navbar-brand" href="#">
+              <img
+                src="./img/logo.jpg"
+                width="50"
+                height="50"
+                alt="icone"
+                class="rounded-3"
+              />
+            </a>
+            <span class="navbar-brand mb-0 bold"
+              ><strong>Digi Store</strong></span
+            >
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+
+          <div
+            class="collapse navbar-collapse border border-3 bg-white box"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav mr-auto sbox">
+              <li class="nav-item active">
+                <a
+                  class="nav-link bolds"
+                  target="_blank"
+                  href="../homepage/index.html"
+                  >Home page</a
+                >
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link bolds" href="#">About us</a>
+              </li>
+              <li class="nav-item active">
+                <a
+                  class="nav-link bolds"
+                  target="_blank"
+                  href="../phone store/index.html"
+                  >Phone store</a
+                >
+              </li>
+              <li class="nav-item dropdown active">
+                <a
+                  class="nav-link dropdown-toggle bolds"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  More tools
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a
+                    class="dropdown-item bolds"
+                    href="http://127.0.0.1:5501/brandleader/index.html"
+                    target="_blank"
+                    >Brand leader</a
+                  >
+                  <a
+                    class="dropdown-item bolds"
+                    href="http://127.0.0.1:5501/join-uswebpage/index.html"
+                    target="_blank"
+                    >Join us</a
+                  >
+                  <a class="dropdown-item bolds" href="#" target="_blank"
+                    >Tablette store</a
+                  >
+                  <a class="dropdown-item bolds" href="#" target="_blank"
+                    >Upcoming products</a
+                  >
+                </div>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link bolds" href="#" target="_blank">Login</a>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <form class="form-inline my-2 my-lg-0">
+              <button class="btn btn-primary my-2 my-sm-0 btn-lg" type="submit">
+                SignIn
+              </button>
+            </form>
+          </div>
+        </nav>
+      </section>
+
+      <section class="b card">
+        <img
+          src="./img/tt.webp"
+          class="card-img size-img"
+          alt="tablette store"
+        />
+        <div class="card-img-overlay d-flex flex-column align-items-start mcss">
+          <h3 class="card-title p-2 h3-header">Tablette Store</h3>
+          <p class="card-text bg-warning">
+            <small>
+              <nav class="nav d-flex snav">
+                <a class="nav-link text-white" aria-current="page" href="#cards"
+                  >shopping cart</a
+                >
+                <span style="color: white">/</span>
+                <a class="nav-link text-white" href="#cards2">Favorites</a>
+                <span style="color: white">/</span>
+                <a class="nav-link text-white" href="#footer1">wallet</a>
+              </nav>
+            </small>
+          </p>
+        </div>
+      </section>
+    </header>
+    <!-- =========================================================================== -->
+    <main>
+      <!-- card -->
+      <section class="container">
+        <div class="text-center mt-4 mb-4">
+          <h2>Brands related to this category</h2>
+        </div>
+
+        <div class="row row-cols-2 row-cols-md-4 g-4 card-prnt">
+          <div
+            class="col align-items-center justify-content-center border ml-1 p-3"
+          >
+            <div class="team-item rounded align-items-center">
+              <img
+                class="img-fluid align-items-center justify-content-center card-img"
+                src="./img/t1.jpg"
+                alt=""
+              />
+              <div class="text-center p-4">
+                <h5 class="card-title">Lenovo Tab M10 Plus</h5>
+                <br />
+                <p class="card-text">
+                  (3rd Gen) - 2022 - Long Battery Life - 10" FHD - Front & Rear
+                  8MP Camera - 4GB Memory - 64GB Storage - Android 12 or Later,
+                  Gray
+                </p>
+              </div>
+              <div class="team-text text-center bg-color p-4">
+                <h5 class="card-title">Lenovo Tab M10 Plus</h5>
+                <br />
+                <p class="card-text">
+                  (3rd Gen) - 2022 - Long Battery Life - 10" FHD - Front & Rear
+                  8MP Camera - 4GB Memory - 64GB Storage - Android 12 or Later,
+                  Gray
+                </p>
+
+                <div class="d-flex justify-content-center mt-4">
+                  <a
+                    class="btn btn-outline-light rounded-circle text-center mr-2 px-0"
+                    style="width: 40px; height: 40px"
+                    href="#"
+                    ><i class="bi bi-twitter"></i
+                  ></a>
+                  <a
+                    class="btn btn-outline-light rounded-circle text-center mr-2 px-0"
+                    style="width: 40px; height: 40px"
+                    href="#"
+                    ><i class="bi bi-facebook me-2" aria-hidden="true"></i
+                  ></a>
+                  <a
+                    class="btn btn-outline-light rounded-circle text-center mr-2 px-0"
+                    style="width: 40px; height: 40px"
+                    href="#"
+                    ><i class="bi bi-linkedin me-2" aria-hidden="true"></i
+                  ></a>
+                  <a
+                    class="btn btn-outline-light rounded-circle text-center mr-2 px-0"
+                    style="width: 40px; height: 40px"
+                    href="#"
+                    ><i class="bi bi-youtube" aria-hidden="true"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col align-items-center justify-content-center border ml-1 p-3"
+          >
+            <div class="team-item rounded align-items-center">
+              <img
+                class="img-fluid align-items-center justify-content-center"
+                src="./img/t2.jpg"
+                alt=""
+              />
+              <div class="text-center p-4">
+                <h5 class="card-title">Lenovo Tab M10 Plus</h5>
+                <br />
+                <p class="card-text">
+                  (3rd Gen) - 2022 - Long Battery Life - 10" FHD - Front & Rear
+                  8MP Camera - 4GB Memory - 64GB Storage - Android 12 or Later,
+                  Gray
+                </p>
+              </div>
+              <div class="team-text text-center bg-color p-4">
+                <h5 class="card-title">Lenovo Tab M10 Plus</h5>
+                <br />
+                <p class="card-text">
+                  (3rd Gen) - 2022 - Long Battery Life - 10" FHD - Front & Rear
+                  8MP Camera - 4GB Memory - 64GB Storage - Android 12 or Later,
+                  Gray
+                </p>
+                <div class="d-flex justify-content-center mt-4">
+                  <a
+                    class="btn btn-outline-light rounded-circle text-center mr-2 px-0"
+                    style="width: 40px; height: 40px"
+                    href="#"
+                    ><i class="bi bi-twitter"></i
+                  ></a>
+                  <a
+                    class="btn btn-outline-light rounded-circle text-center mr-2 px-0"
+                    style="width: 40px; height: 40px"
+                    href="#"
+                    ><i class="bi bi-facebook me-2" aria-hidden="true"></i
+                  ></a>
+                  <a
+                    class="btn btn-outline-light rounded-circle text-center mr-2 px-0"
+                    style="width: 40px; height: 40px"
+                    href="#"
+                    ><i class="bi bi-linkedin me-2" aria-hidden="true"></i
+                  ></a>
+                  <a
+                    class="btn btn-outline-light rounded-circle text-center mr-2 px-0"
+                    style="width: 40px; height: 40px"
+                    href="#"
+                    ><i class="bi bi-youtube" aria-hidden="true"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col align-items-center justify-content-center border ml-1 p-3"
+          >
+            <div class="team-item rounded align-items-center">
+              <img
+                class="img-fluid align-items-center justify-content-center card-imgb"
+                src="./img/t3.webp"
+                alt=""
+              />
+              <div class="text-center p-4">
+                <h5 class="card-title">Lenovo Tab M10 Plus</h5>
+                <br />
+                <p class="card-text">
+                  (3rd Gen) - 2022 - Long Battery Life - 10" FHD - Front & Rear
+                  8MP Camera - 4GB Memory - 64GB Storage - Android 12 or Later,
+                  Gray
+                </p>
+              </div>
+              <div class="team-text text-center bg-color p-4">
+                <h5 class="card-title">Lenovo Tab M10 Plus</h5>
+                <br />
+                <p class="card-text">
+                  (3rd Gen) - 2022 - Long Battery Life - 10" FHD - Front & Rear
+                  8MP Camera - 4GB Memory - 64GB Storage - Android 12 or Later,
+                  Gray
+                </p>
+                <div class="d-flex justify-content-center mt-4">
+                  <a
+                    class="btn btn-outline-light rounded-circle text-center mr-2 px-0"
+                    style="width: 40px; height: 40px"
+                    href="#"
+                    ><i class="bi bi-twitter"></i
+                  ></a>
+                  <a
+                    class="btn btn-outline-light rounded-circle text-center mr-2 px-0"
+                    style="width: 40px; height: 40px"
+                    href="#"
+                    ><i class="bi bi-facebook me-2" aria-hidden="true"></i
+                  ></a>
+                  <a
+                    class="btn btn-outline-light rounded-circle text-center mr-2 px-0"
+                    style="width: 40px; height: 40px"
+                    href="#"
+                    ><i class="bi bi-linkedin me-2" aria-hidden="true"></i
+                  ></a>
+                  <a
+                    class="btn btn-outline-light rounded-circle text-center mr-2 px-0"
+                    style="width: 40px; height: 40px"
+                    href="#"
+                    ><i class="bi bi-youtube" aria-hidden="true"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col align-items-center justify-content-center border ml-1 p-3"
+          >
+            <div class="team-item rounded align-items-center">
+              <img
+                class="img-fluid align-items-center justify-content-center card-img"
+                src="./img/t4.jpg"
+                alt=""
+              />
+              <div class="text-center p-4">
+                <h5 class="card-title">Lenovo Tab M10 Plus</h5>
+                <br />
+                <p class="card-text">
+                  (3rd Gen) - 2022 - Long Battery Life - 10" FHD - Front & Rear
+                  8MP Camera - 4GB Memory - 64GB Storage - Android 12 or Later,
+                  Gray
+                </p>
+              </div>
+              <div class="team-text text-center bg-color p-4">
+                <h5 class="card-title">Lenovo Tab M10 Plus</h5>
+                <br />
+                <p class="card-text">
+                  (3rd Gen) - 2022 - Long Battery Life - 10" FHD - Front & Rear
+                  8MP Camera - 4GB Memory - 64GB Storage - Android 12 or Later,
+                  Gray
+                </p>
+                <div class="d-flex justify-content-center mt-4">
+                  <a
+                    class="btn btn-outline-light rounded-circle text-center mr-2 px-0"
+                    style="width: 40px; height: 40px"
+                    href="#"
+                    ><i class="bi bi-twitter"></i
+                  ></a>
+                  <a
+                    class="btn btn-outline-light rounded-circle text-center mr-2 px-0"
+                    style="width: 40px; height: 40px"
+                    href="#"
+                    ><i class="bi bi-facebook me-2" aria-hidden="true"></i
+                  ></a>
+                  <a
+                    class="btn btn-outline-light rounded-circle text-center mr-2 px-0"
+                    style="width: 40px; height: 40px"
+                    href="#"
+                    ><i class="bi bi-linkedin me-2" aria-hidden="true"></i
+                  ></a>
+                  <a
+                    class="btn btn-outline-light rounded-circle text-center mr-2 px-0"
+                    style="width: 40px; height: 40px"
+                    href="#"
+                    ><i class="bi bi-youtube" aria-hidden="true"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col align-items-center justify-content-center border ml-1 p-3"
+          >
+            <div class="team-item rounded align-items-center">
+              <img
+                class="img-fluid align-items-center justify-content-center"
+                src="./img/t5.jpg"
+                alt=""
+              />
+              <div class="text-center p-4">
+                <h5 class="card-title">Lenovo Tab M10 Plus</h5>
+                <br />
+                <p class="card-text">
+                  (3rd Gen) - 2022 - Long Battery Life - 10" FHD - Front & Rear
+                  8MP Camera - 4GB Memory - 64GB Storage - Android 12 or Later,
+                  Gray
+                </p>
+              </div>
+              <div class="team-text text-center bg-color p-4">
+                <h5 class="card-title">Lenovo Tab M10 Plus</h5>
+                <br />
+                <p class="card-text">
+                  (3rd Gen) - 2022 - Long Battery Life - 10" FHD - Front & Rear
+                  8MP Camera - 4GB Memory - 64GB Storage - Android 12 or Later,
+                  Gray
+                </p>
+                <div class="d-flex justify-content-center mt-4">
+                  <a
+                    class="btn btn-outline-light rounded-circle text-center mr-2 px-0"
+                    style="width: 40px; height: 40px"
+                    href="#"
+                    ><i class="bi bi-twitter"></i
+                  ></a>
+                  <a
+                    class="btn btn-outline-light rounded-circle text-center mr-2 px-0"
+                    style="width: 40px; height: 40px"
+                    href="#"
+                    ><i class="bi bi-facebook me-2" aria-hidden="true"></i
+                  ></a>
+                  <a
+                    class="btn btn-outline-light rounded-circle text-center mr-2 px-0"
+                    style="width: 40px; height: 40px"
+                    href="#"
+                    ><i class="bi bi-linkedin me-2" aria-hidden="true"></i
+                  ></a>
+                  <a
+                    class="btn btn-outline-light rounded-circle text-center mr-2 px-0"
+                    style="width: 40px; height: 40px"
+                    href="#"
+                    ><i class="bi bi-youtube" aria-hidden="true"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col align-items-center justify-content-center border ml-1 p-3"
+          >
+            <div class="team-item rounded align-items-center">
+              <img
+                class="img-fluid align-items-center justify-content-center"
+                src="./img/t6.jpg"
+                alt=""
+              />
+              <div class="text-center p-4">
+                <h5 class="card-title">Lenovo Tab M10 Plus</h5>
+                <br />
+                <p class="card-text">
+                  (3rd Gen) - 2022 - Long Battery Life - 10" FHD - Front & Rear
+                  8MP Camera - 4GB Memory - 64GB Storage - Android 12 or Later,
+                  Gray
+                </p>
+              </div>
+              <div class="team-text text-center bg-color p-4">
+                <h5 class="card-title">Lenovo Tab M10 Plus</h5>
+                <br />
+                <p class="card-text">
+                  (3rd Gen) - 2022 - Long Battery Life - 10" FHD - Front & Rear
+                  8MP Camera - 4GB Memory - 64GB Storage - Android 12 or Later,
+                  Gray
+                </p>
+                <div class="d-flex justify-content-center mt-4">
+                  <a
+                    class="btn btn-outline-light rounded-circle text-center mr-2 px-0"
+                    style="width: 40px; height: 40px"
+                    href="#"
+                    ><i class="bi bi-twitter"></i
+                  ></a>
+                  <a
+                    class="btn btn-outline-light rounded-circle text-center mr-2 px-0"
+                    style="width: 40px; height: 40px"
+                    href="#"
+                    ><i class="bi bi-facebook me-2" aria-hidden="true"></i
+                  ></a>
+                  <a
+                    class="btn btn-outline-light rounded-circle text-center mr-2 px-0"
+                    style="width: 40px; height: 40px"
+                    href="#"
+                    ><i class="bi bi-linkedin me-2" aria-hidden="true"></i
+                  ></a>
+                  <a
+                    class="btn btn-outline-light rounded-circle text-center mr-2 px-0"
+                    style="width: 40px; height: 40px"
+                    href="#"
+                    ><i class="bi bi-youtube" aria-hidden="true"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col align-items-center justify-content-center border ml-1 p-3"
+          >
+            <div class="team-item rounded align-items-center">
+              <img
+                class="img-fluid align-items-center justify-content-center"
+                src="./img/t7.jpg"
+                alt=""
+              />
+              <div class="text-center p-4">
+                <h5 class="card-title">Lenovo Tab M10 Plus</h5>
+                <br />
+                <p class="card-text">
+                  (3rd Gen) - 2022 - Long Battery Life - 10" FHD - Front & Rear
+                  8MP Camera - 4GB Memory - 64GB Storage - Android 12 or Later,
+                  Gray
+                </p>
+              </div>
+              <div class="team-text text-center bg-color p-4">
+                <h5 class="card-title">Lenovo Tab M10 Plus</h5>
+                <br />
+                <p class="card-text">
+                  (3rd Gen) - 2022 - Long Battery Life - 10" FHD - Front & Rear
+                  8MP Camera - 4GB Memory - 64GB Storage - Android 12 or Later,
+                  Gray
+                </p>
+                <div class="d-flex justify-content-center mt-4">
+                  <a
+                    class="btn btn-outline-light rounded-circle text-center mr-2 px-0"
+                    style="width: 40px; height: 40px"
+                    href="#"
+                    ><i class="bi bi-twitter"></i
+                  ></a>
+                  <a
+                    class="btn btn-outline-light rounded-circle text-center mr-2 px-0"
+                    style="width: 40px; height: 40px"
+                    href="#"
+                    ><i class="bi bi-facebook me-2" aria-hidden="true"></i
+                  ></a>
+                  <a
+                    class="btn btn-outline-light rounded-circle text-center mr-2 px-0"
+                    style="width: 40px; height: 40px"
+                    href="#"
+                    ><i class="bi bi-linkedin me-2" aria-hidden="true"></i
+                  ></a>
+                  <a
+                    class="btn btn-outline-light rounded-circle text-center mr-2 px-0"
+                    style="width: 40px; height: 40px"
+                    href="#"
+                    ><i class="bi bi-youtube" aria-hidden="true"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col align-items-center justify-content-center border ml-1 p-3"
+          >
+            <div class="team-item rounded align-items-center">
+              <img
+                class="img-fluid align-items-center justify-content-center card-img"
+                src="./img/t8.jpg"
+                alt=""
+              />
+              <div class="text-center p-4">
+                <h5 class="card-title">Lenovo Tab M10 Plus</h5>
+                <br />
+                <p class="card-text">
+                  (3rd Gen) - 2022 - Long Battery Life - 10" FHD - Front & Rear
+                  8MP Camera - 4GB Memory - 64GB Storage - Android 12 or Later,
+                  Gray
+                </p>
+              </div>
+              <div class="team-text text-center bg-color p-4">
+                <h5 class="card-title">Lenovo Tab M10 Plus</h5>
+                <br />
+                <p class="card-text">
+                  (3rd Gen) - 2022 - Long Battery Life - 10" FHD - Front & Rear
+                  8MP Camera - 4GB Memory - 64GB Storage - Android 12 or Later,
+                  Gray
+                </p>
+                <div class="d-flex justify-content-center mt-4">
+                  <a
+                    class="btn btn-outline-light rounded-circle text-center mr-2 px-0"
+                    style="width: 40px; height: 40px"
+                    href="#"
+                    ><i class="bi bi-twitter"></i
+                  ></a>
+                  <a
+                    class="btn btn-outline-light rounded-circle text-center mr-2 px-0"
+                    style="width: 40px; height: 40px"
+                    href="#"
+                    ><i class="bi bi-facebook me-2" aria-hidden="true"></i
+                  ></a>
+                  <a
+                    class="btn btn-outline-light rounded-circle text-center mr-2 px-0"
+                    style="width: 40px; height: 40px"
+                    href="#"
+                    ><i class="bi bi-linkedin me-2" aria-hidden="true"></i
+                  ></a>
+                  <a
+                    class="btn btn-outline-light rounded-circle text-center mr-2 px-0"
+                    style="width: 40px; height: 40px"
+                    href="#"
+                    ><i class="bi bi-youtube" aria-hidden="true"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col align-items-center justify-content-center border ml-1 p-3"
+          >
+            <div class="team-item rounded align-items-center">
+              <img
+                class="img-fluid align-items-center justify-content-center"
+                src="./img/t9.jpg"
+                alt=""
+              />
+              <div class="text-center p-4">
+                <h5 class="card-title">Lenovo Tab M10 Plus</h5>
+                <br />
+                <p class="card-text">
+                  (3rd Gen) - 2022 - Long Battery Life - 10" FHD - Front & Rear
+                  8MP Camera - 4GB Memory - 64GB Storage - Android 12 or Later,
+                  Gray
+                </p>
+              </div>
+              <div class="team-text text-center bg-color p-4">
+                <h5 class="card-title">Lenovo Tab M10 Plus</h5>
+                <br />
+                <p class="card-text">
+                  (3rd Gen) - 2022 - Long Battery Life - 10" FHD - Front & Rear
+                  8MP Camera - 4GB Memory - 64GB Storage - Android 12 or Later,
+                  Gray
+                </p>
+                <div class="d-flex justify-content-center mt-4">
+                  <a
+                    class="btn btn-outline-light rounded-circle text-center mr-2 px-0"
+                    style="width: 40px; height: 40px"
+                    href="#"
+                    ><i class="bi bi-twitter"></i
+                  ></a>
+                  <a
+                    class="btn btn-outline-light rounded-circle text-center mr-2 px-0"
+                    style="width: 40px; height: 40px"
+                    href="#"
+                    ><i class="bi bi-facebook me-2" aria-hidden="true"></i
+                  ></a>
+                  <a
+                    class="btn btn-outline-light rounded-circle text-center mr-2 px-0"
+                    style="width: 40px; height: 40px"
+                    href="#"
+                    ><i class="bi bi-linkedin me-2" aria-hidden="true"></i
+                  ></a>
+                  <a
+                    class="btn btn-outline-light rounded-circle text-center mr-2 px-0"
+                    style="width: 40px; height: 40px"
+                    href="#"
+                    ><i class="bi bi-youtube" aria-hidden="true"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- ============================================================================== -->
+    <!-- start-footer -->
+    <footer
+      class="container-fluid bg-dark footer mt-5 pt-5 wow fadeIn"
+      data-wow-delay="0.1s"
+    >
+      <section class="container py-5">
+        <section class="row g-5">
+          <div class="col text-light">
+            <p>
+              We will remember this day and your contribution forever and Words
+              cannot describe how grateful we are
+              <br />
+              please Follow us on the following social media
+            </p>
+            <div class="d-flex justify-content-start mt-4">
+              <a
+                class="btn btn-outline-light rounded-circle text-center mr-2 px-0"
+                style="width: 40px; height: 40px"
+                href="#"
+                ><i class="bi bi-twitter"></i
+              ></a>
+              <a
+                class="btn btn-outline-light rounded-circle text-center mr-2 px-0"
+                style="width: 40px; height: 40px"
+                href="#"
+                ><i class="bi bi-facebook me-2" aria-hidden="true"></i
+              ></a>
+              <a
+                class="btn btn-outline-light rounded-circle text-center mr-2 px-0"
+                style="width: 40px; height: 40px"
+                href="#"
+                ><i class="bi bi-linkedin me-2" aria-hidden="true"></i
+              ></a>
+              <a
+                class="btn btn-outline-light rounded-circle text-center mr-2 px-0"
+                style="width: 40px; height: 40px"
+                href="#"
+                ><i class="bi bi-youtube" aria-hidden="true"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-light">
+            <h5 class="text-light mb-4">Contact Us</h5>
+            <p>
+              <i class="bi bi-geo-alt-fill me-3" aria-hidden="true"></i>Habibi
+              come to iran
+            </p>
+            <p>
+              <i class="bi bi-telephone me-3" aria-hidden="true"></i>+915***9387
+            </p>
+            <p>
+              <i class="bi bi-envelope me-3" aria-hidden="true"></i
+              >digistore@gmail.com
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h5 class="text-light mb-4">Quick Links</h5>
+            <div>
+              <a href="#" class="a-style"
+                ><i class="bi bi-caret-right-fill"></i> Home</a
+              ><br />
+              <a href="#" class="a-style"
+                ><i class="bi bi-caret-right-fill"></i> Phone store</a
+              ><br />
+              <a href="#" class="a-style"
+                ><i class="bi bi-caret-right-fill"></i> Brand leader</a
+              ><br />
+              <a href="#" class="a-style"
+                ><i class="bi bi-caret-right-fill"></i> Join us </a
+              ><br />
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div>
+              <h5 class="text-light mb-4">What u want? just search it!</h5>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <div class="position-relative mx-auto" style="max-width: 400px">
+              <input
+                type="text"
+                class="form-control bg-transparent w-100 py-3 ps-4 pe-5"
+                placeholder="search"
+              />
+              <button
+                class="btn btn-secondary py-2 position-absolute top-0 end-0 mt-2 me-2"
+              >
+                search
+              </button>
+            </div>
+          </div>
+        </section>
+        <hr class="border-top border-primary" />
+        <section class="row justify-content-between">
+          <div class="col-6 text-light">
+            <p>
+              <a href="#" class="a-style">Contact</a> our 24/7 customer support
+              if you have any questions. We'll help you out.
+            </p>
+          </div>
+          <div class="col-6 text-light">
+            <p>
+              Copyright © 2024 iran. All Rights Reserved. Made with by :
+              <a href="#" class="a-style">APS TEAM</a>
+            </p>
+          </div>
+        </section>
+      </section>
+    </footer>
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
+      ><i class="bi bi-arrow-up"></i
+    ></a>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

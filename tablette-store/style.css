@@ -1,0 +1,149 @@
+/* header */
+/* navbar styles */
+
+.bold {
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+.bolds {
+  font-weight: bold;
+  font-size: large;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.box {
+  max-width: 700px;
+  border-radius: 10px;
+  gap: 30px;
+}
+
+.sbox {
+  margin: 10px auto;
+  gap: 30px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+/* style of cards in header */
+
+.size-img {
+  min-height: 400px;
+}
+
+img[src="./img/tt.webp"] + div {
+  margin-left: 70px;
+  margin-top: 25px;
+}
+
+.h3-header {
+  background-color: rgb(179, 178, 178);
+  border-radius: 4px;
+}
+
+nav.snav a {
+  display: inline-block;
+}
+
+/* card style */
+main {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+h2 {
+  background-color: beige;
+  color: rgb(190, 135, 62);
+  margin-bottom: 60px;
+  padding: 10px;
+}
+
+.card-prnt {
+  gap: 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.bg-color {
+  background-color: lightgrey;
+}
+
+.card-img {
+  height: 250px;
+}
+
+.card-imgb {
+  height: 260px;
+}
+
+.team-item {
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 45px rgba(0, 0, 0, 0.07);
+}
+
+.team-item img {
+  transition: 0.5s;
+  padding-left: 2vw;
+}
+
+.team-item:hover img {
+  transform: scale(1.1);
+}
+
+.team-text {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: -50px;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.team-item:hover .team-text {
+  bottom: 0;
+  opacity: 1;
+}
+.decoration {
+  text-decoration: line-through;
+}
+/* end style card */
+
+/*  start-footer style */
+.a-style {
+  color: rgb(235, 161, 161) !important;
+  text-decoration: none;
+}
+.a-style:hover {
+  font-size: large;
+  font-weight: 500;
+}
+.back-to-top {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+}
+
+/* media for navbar */
+
+@media (max-width: 1200px) {
+  .box {
+    max-width: 500px;
+  }
+  .bold {
+    font-size: x-large;
+  }
+  .bolds {
+    font-size: medium;
+  }
+}
