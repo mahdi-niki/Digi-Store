@@ -1,0 +1,68 @@
+/* header */
+/* navbar styles */
+
+.bold {
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+.bolds {
+  font-weight: bold;
+  font-size: large;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.box {
+  max-width: 700px;
+  border-radius: 10px;
+  gap: 30px;
+}
+
+.sbox {
+  margin: 10px auto;
+  gap: 30px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+/* style of cards in header */
+.size-img {
+  height: 60vh;
+}
+
+img[src="./img/tt.webp"] + div {
+  margin-left: 70px;
+  margin-top: 25px;
+}
+
+.h3-header {
+  background-color: rgb(179, 178, 178);
+  border-radius: 4px;
+}
+
+nav.snav a {
+  display: inline-block;
+}
+
+/* media for navbar */
+
+@media (max-width: 1200px) {
+  .box {
+    max-width: 500px;
+  }
+  .bold {
+    font-size: x-large;
+  }
+  .bolds {
+    font-size: medium;
+  }
+}
